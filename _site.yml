@@ -1,0 +1,25 @@
+output_dir: "."
+
+navbar:
+  title: "听云小栈"
+  type: inverse
+  left:
+    - text: "关于"
+      href: index.html
+    - text: "项目"
+      href: projects.html
+    - text: "关于"
+      href: about.html
+
+output:
+  html_document:
+    self_contained: false
+    theme: cosmo
+    highlight: textmate
+    mathjax: null
+    lib_dir: libs
+    css: styles.css
+    toc: true
+    toc_depth: 3
+    toc_float:
+      collapsed: false
